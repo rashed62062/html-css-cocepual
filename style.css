@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins",sans-serif;
+
+}
+header {
+    position: fixed;
+    top: 0;
+width: 100px;
+padding: 50px 100px;
+background: rgb(82, 38, 38);
+display: flex;
+justify-content:  space-between;
+align-items: center;
+z-index: 99;
+
+
+}
+.Logo{
+
+    color: #fff;
+font-size: zem;
+font-weight: 500px;
+user-select: none;
+}
+.navigation a {
+font-size: 1.1em;
+margin-left: 40px;
+text-decoration: none;
+color: wheat;             
+position: relative;
+font-weight: 500px;
+}
+
+
+
+
